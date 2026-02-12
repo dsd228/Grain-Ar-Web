@@ -3,35 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Productos - VIEL Agro Global</title>
+  <title>Productos · Grain Arg</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="header container">
-    <h1 class="logo">VIEL Agro Global</h1>
+
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <span class="logo-img-placeholder">GA</span>
+      GRAIN ARG
+    </div>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="index.html">Empresa</a>
       <a href="productos.html">Productos</a>
-      <a href="index.html#contacto">Contacto</a>
+      <a href="#">Servicios</a>
+      <a href="#">Contacto</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <section class="products container">
-    <h2>Nuestros Productos</h2>
-
-    <div class="filters">
-      <input type="text" id="search" placeholder="Buscar producto...">
+<section class="products-page">
+  <div class="container">
+    <div class="products-header">
+      <h2>Catálogo de semillas</h2>
+      <div class="filters">
+        <input type="text" id="search" placeholder="Buscar producto (ej: maíz, soja, trigo...)">
+      </div>
     </div>
 
     <div id="product-list" class="product-grid">
-      <!-- JS llenará productos acá -->
+      <!-- Los productos se cargarán dinámicamente con JS -->
     </div>
-  </section>
+  </div>
+</section>
 
-  <footer class="footer container">
-    <p>© 2026 VIEL Agro Global</p>
-  </footer>
+<footer class="footer">
+  <div class="container">
+    <p>© 2026 Grain Arg · Distribuidor Oficial NK Semillas</p>
+  </div>
+</footer>
 
-  <script src="scripts.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
